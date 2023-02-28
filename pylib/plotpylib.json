@@ -1,0 +1,58 @@
+{
+  "eula": "",
+  "vendor": "SAP",
+  "license": "",
+  "id": "com.sap.sac.sample.pyodide.matplotlib",
+  "version": "1.0.0",
+  "supportsMobile": true,
+  "name": "Pyodide Matplotlib",
+  "newInstancePrefix": "PyodideMatplotlib",
+  "description": "A sample custom widget based on Pyodide and Matplotlib",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sample-pyodide-matplotlib",
+      "url": "http://localhost:3000/pyodide/matplotlib/main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    },
+    {
+      "kind": "styling",
+      "tag": "com-sap-sample-pyodide-matplotlib-styling",
+      "url": "http://localhost:3000/pyodide/matplotlib/styling.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "width": {
+      "type": "integer",
+      "default": 600
+    },
+    "height": {
+      "type": "integer",
+      "default": 420
+    },
+    "py": {
+      "type": "string"
+    }
+  },
+  "methods": {},
+  "events": {},
+  "dataBindings": {
+    "dataBinding": {
+      "feeds": [
+        {
+          "id": "dimensions",
+          "description": "Dimensions",
+          "type": "dimension"
+        },
+        {
+          "id": "measures",
+          "description": "Measures",
+          "type": "mainStructureMember"
+        }
+      ]
+    }
+  }
+}
