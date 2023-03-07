@@ -1,0 +1,83 @@
+{
+	"id": "com.sap.sapphire.gauge.db",
+	"version": "1.0.0",
+	"name": "Sapphire Gauge with Data Binding",
+	"description": "This is a gauge widget, that looks like a tacho",
+	"newInstancePrefix": "DataBindingGauge",
+	"icon": "https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGauge.png",
+	"vendor": "SAP SE",
+	"eula": "",
+	"license": "MIT",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sapphire-gauge-db",
+			"url": "https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGaugeMainWithDataBinding.js",
+			"integrity": "sha256-2dt+p86PZHqM8XGlALMKA/kWUU7+6nmHmj7actihudI=",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-sap-sample-gauge-styling",
+			"url": "https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGaugeStylingWithDataBinding.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"threshold": {
+			"type": "integer",
+			"description": "Threshold of the needle"
+		},
+		"width": {
+			"type": "integer",
+			"default": 300
+		},
+		"height": {
+			"type": "integer",
+			"default": 300
+		}
+	},
+	"methods": {
+		"setThreshold": {
+			"description": "sets the gauge Threshold",
+			"parameters": [
+				{
+					"name": "newThreshold",
+					"type": "integer",
+					"description": "new Threshold"
+				}
+			],
+			"body": "this.threshold = newThreshold;"
+		},
+		"getThreshold": {
+			"description": "returns the gauge Threshold",
+			"returnType": "integer",
+			"parameters": [],
+			"body": "return this.threshold;"
+		},
+		"getDataSource": {
+			"parameters":[],
+			"body": "return this.dataBindings.getDataBinding('gauge').getDataSource();",
+			"returnType": "DataSource"
+		}
+	},
+	"events": {},
+	"dataBindings": {
+		"gauge": {
+			"feeds": [
+				{
+					"id": "measure",
+					"description": "Measure",
+					"type": "mainStructureMember"
+				},
+				{
+					"id": "dimension",
+					"description": "Dimension",
+					"type": "dimension"
+				}
+			]
+		}
+	},
+	"imports": ["data-binding"]
+}
