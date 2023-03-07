@@ -1,7 +1,7 @@
 (function () {
     let template = document.createElement("template");
     template.innerHTML = `
-		  <link rel="stylesheet" type="text/css" href="https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGauge.css"/>
+		  <link rel="stylesheet" type="text/css" href="https://yaoyaoustc.github.io/sac-customwidget-sample/sapphireGauge/sapphireGauge.css"/>
           <div id="SapphireGauge" class="sapphireGauge">
             <div id="GaugeContainer" class="sapphire-gauge-container">
                 <svg id="GaugeMeter" data-name="GaugeMeter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 102">
