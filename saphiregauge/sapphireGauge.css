@@ -1,0 +1,59 @@
+.cls-1{
+    fill:#9DC3E6;
+}
+.cls-2{
+    opacity:0.25;
+}
+.cls-3{
+    opacity:0.3;
+}
+.cls-4{
+    opacity:0.35;
+}
+.cls-5{
+    opacity:0.55;
+}
+.cls-6{
+    opacity:0.65;
+}
+.cls-7{
+    opacity:0.75;
+}
+.cls-8{
+    opacity:0.85;
+}
+.cls-9{
+    opacity:0.95;
+}
+
+.sapphire-gauge-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sapphire-gauge-needle {
+    position: absolute;
+    border-radius: 3px;
+    background: #9DC3E6;
+    transform-origin: 0 0;
+    transform-origin: bottom;
+}
+.sapphire-gauge-needle-circle {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: #9DC3E6;
+    bottom: -15%;
+    left: -90%;
+}
+.sapphire-gauge-text {
+    color: #9DC3E6;
+    background: transparent;
+    text-align: center;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 20%;
+    margin-left: 2%;
+    position: absolute;
+}
