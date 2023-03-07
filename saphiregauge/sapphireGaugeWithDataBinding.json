@@ -4,7 +4,7 @@
 	"name": "Yao Sapphire Gauge with Data Binding",
 	"description": "This is a gauge widget, that looks like a tacho",
 	"newInstancePrefix": "DataBindingGauge",
-	"icon": "https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGauge.png",
+	"icon": "https://yaoyaoustc.github.io/sac-customwidget-sample/sapphireGauge/sapphireGauge.png",
 	"vendor": "Yao@SAP ",
 	"eula": "",
 	"license": "MIT",
@@ -12,14 +12,14 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-sapphire-gauge-db",
-			"url": "https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGaugeMainWithDataBinding.js",
+			"url": "https://yaoyaoustc.github.io/sac-customwidget-sample/saphiregauge/sapphireGaugeMainWithDataBinding.js",
 			"integrity": "sha256-2dt+p86PZHqM8XGlALMKA/kWUU7+6nmHmj7actihudI=",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-sap-sample-gauge-styling",
-			"url": "https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGaugeStylingWithDataBinding.js",
+			"url": "https://yaoyaoustc.github.io/sac-customwidget-sample/saphiregauge/sapphireGaugeStylingWithDataBinding.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
