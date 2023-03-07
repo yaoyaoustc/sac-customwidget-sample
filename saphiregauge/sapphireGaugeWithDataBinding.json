@@ -1,11 +1,11 @@
 {
 	"id": "com.sap.sapphire.gauge.db",
 	"version": "1.0.0",
-	"name": "Sapphire Gauge with Data Binding",
+	"name": "Yao Sapphire Gauge with Data Binding",
 	"description": "This is a gauge widget, that looks like a tacho",
 	"newInstancePrefix": "DataBindingGauge",
 	"icon": "https://obey.wdf.sap.corp/temp/AppDesignCustomWidgets/custom-widget-samples/sapphireGauge/sapphireGauge.png",
-	"vendor": "SAP SE",
+	"vendor": "Yao@SAP ",
 	"eula": "",
 	"license": "MIT",
 	"webcomponents": [
